@@ -13,6 +13,7 @@ import org.apache.hadoop.util.GenericOptionsParser;
 public class AverageDriver {
 
 	public static void main(String[] args) throws Exception {
+		System.out.println("Hello Wold");
 		Configuration conf = new Configuration();
 		String[] otherArgs = new GenericOptionsParser(conf, args)
 				.getRemainingArgs();
